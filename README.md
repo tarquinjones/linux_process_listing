@@ -30,5 +30,5 @@ This mode will output each process into a tab delimeted file.
 
 ### Compile using make
 ```
-git clone https://this_repo && make
+git clone https://github.com/tarquinjones/linux_process_listing.git; cd linux_process_listing; make
 ```
