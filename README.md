@@ -2,8 +2,11 @@
 
 *For those times when you don't trust ps or have it?*
 
-It's pretty simple at the moment compile and run it! I'll add a Makefile soon so simplify it.
+It's pretty simple at the moment compile and run it!
 
+- One thing to note is kernel processes are highlighted in yellow if you choose raw mode
+
+Current version is MVP so keep an eye on the branches for future updates.
 ## Tested on
 * Debian
 * Ubuntu 18.04+
