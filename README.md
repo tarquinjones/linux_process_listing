@@ -1,13 +1,31 @@
-# Process Information
+# Linux process listing
 
-Tool to get details information about a specific PID.
+*For those times when you don't trust ps or have it?*
 
-The same information as the process listing command is returned as well as:
-- Environment details
-- Processes Memory maps
-- Current working directory
-- Exe path
-- File Descriptors
-- Mapped Files
+It's pretty simple at the moment compile and run it! I'll add a Makefile soon so simplify it.
 
-Note that not all of this information will be available as low privilege user.
+## Tested on
+* Debian
+* Ubuntu 18.04+
+
+## Usage 
+
+There are two modes available when using the tool.
+
+### Raw Mode
+This will display all the information to stdout. 
+Kernel process are highlighted in yellow.
+```
+./process_listing -r
+```
+
+### File mode
+This mode will output each process into a tab delimeted file.
+```
+./process_listing -f /home/user/processes.csv
+```
+
+### Compile using make
+```
+git clone https://this_repo && make
+```
